@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+.card{
+ 
+  margin: 5rem;
+  display: grid;
+  place-items: center;
+ 
+}
+.about{
+  margin: 5rem;
+  
+}
+.home{
+  margin-top: 5rem;
+}
+.Contact{
+  margin: 5rem;
+  display: grid;
+  place-items: center;
+}
