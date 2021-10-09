@@ -1,6 +1,10 @@
 import * as React from 'react';
 import b1 from '../../Images/b1.jpg'
 import p1 from '../../Images/p1.jpg'
+import b2 from '../../Images/b2.jpg'
+import p2 from '../../Images/p2.jpg'
+import b3 from '../../Images/b3.jpg'
+import p3 from '../../Images/p3.jpg'
 import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
@@ -16,7 +20,7 @@ function Home() {
         <div className='card'>
             <Grid container spacing={2}>
                 <Grid item xs={8} sm={6} md={4} >
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 350 }}>
 
                         <CardMedia
                             component="img"
@@ -35,12 +39,12 @@ function Home() {
                     </Card>
                 </Grid>
                 <Grid item xs={8} sm={6} md={4} >
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 350 }}>
 
                         <CardMedia
                             component="img"
                             height="194"
-                            image={p1}
+                            image={b1}
                             alt="Paella dish"
                         />
                         <CardContent>
@@ -54,12 +58,12 @@ function Home() {
                     </Card>
                 </Grid>
                 <Grid item xs={8} sm={6} md={4} >
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 350 }}>
 
                         <CardMedia
                             component="img"
                             height="194"
-                            image={p1}
+                            image={p2}
                             alt="Paella dish"
                         />
                         <CardContent>
@@ -73,12 +77,12 @@ function Home() {
                     </Card>
                 </Grid>
                 <Grid item xs={8} sm={6} md={4} >
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 350 }}>
 
                         <CardMedia
                             component="img"
                             height="194"
-                            image={p1}
+                            image={b2}
                             alt="Paella dish"
                         />
                         <CardContent>
@@ -92,12 +96,12 @@ function Home() {
                     </Card>
                 </Grid>
                 <Grid item xs={8} sm={6} md={4} >
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 350 }}>
 
                         <CardMedia
                             component="img"
                             height="194"
-                            image={p1}
+                            image={p3}
                             alt="Paella dish"
                         />
                         <CardContent>
@@ -111,12 +115,12 @@ function Home() {
                     </Card>
                 </Grid>
                 <Grid item xs={8} sm={6} md={4} >
-                    <Card sx={{ maxWidth: 345 }}>
+                    <Card sx={{ maxWidth: 350 }}>
 
                         <CardMedia
                             component="img"
                             height="194"
-                            image={p1}
+                            image={b3}
                             alt="Paella dish"
                         />
                         <CardContent>
